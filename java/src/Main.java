@@ -18,6 +18,7 @@ public class Main {
         } catch (FileNotFoundException e) {
             // Gracefully handle file not found exception
             System.err.println("Exiting application due to missing file.");
+            // Using System.err.println is a way to log error messages or critical information to the error stream
         }
     }
 
